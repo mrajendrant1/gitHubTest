@@ -1,0 +1,120 @@
+<uml:Model xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:version="2.0" xmi:id="_resource" name="resource">
+<packagedElement xsi:type="uml:Class" xmi:id="b5db0ad8-7ce7-4826-84f7-aa33b6f48f25" name="Transaction">
+<ownedAttribute xmi:id="_txn_id_Transaction" name="txn_id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_txn_id_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_txn_id_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_start_ts_Transaction" name="start_ts">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_start_ts_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_start_ts_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_end_ts_Transaction" name="end_ts">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_end_ts_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_end_ts_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_response_time_Transaction" name="response_time">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_response_time_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_response_time_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_srvc_name_Transaction" name="srvc_name">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_srvc_name_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_srvc_name_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_srvc_version_Transaction" name="srvc_version">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_srvc_version_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_srvc_version_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_srvc_op_name_Transaction" name="srvc_op_name">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_srvc_op_name_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_srvc_op_name_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ws_usr_name_Transaction" name="ws_usr_name">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ws_usr_name_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ws_usr_name_Transaction" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_a_b_Transaction" name="a_b">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_a_b_Transaction" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_a_b_Transaction" value="1"/>
+</ownedAttribute>
+
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="1f436814-ce01-4723-828d-3ce279fd80ea" name="order">
+<ownedAttribute xmi:id="_processId_order" name="processId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_processId_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_processId_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_startDate_order" name="startDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_startDate_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_startDate_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_endDate_order" name="endDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_endDate_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_endDate_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_sessionId_order" name="sessionId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_sessionId_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_sessionId_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_accountId_order" name="accountId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_accountId_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_accountId_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_scmsRefId_order" name="scmsRefId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_scmsRefId_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_scmsRefId_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_workflow_id_order" name="workflow_id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_workflow_id_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_workflow_id_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_respStatus_order" name="respStatus">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_respStatus_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_respStatus_order" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_oldProcessId_order" name="oldProcessId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_oldProcessId_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_oldProcessId_order" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_search_order" name="search">
+<ownedParameter xmi:id="_P_search_order" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_search_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_search_order" value="1"/>
+</ownedParameter>
+</ownedOperation>
+<ownedOperation xmi:id="_O_getTransaction_order" name="getTransaction">
+<ownedParameter xmi:id="_P_getTransaction_order" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_getTransaction_order" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_getTransaction_order" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="cecd1601-f719-4b87-a4a4-f9aad190cf99" name="order_Transaction" memberEnd="_OETI_cecd1601-f719-4b87-a4a4-f9aad190cf99 _OESI_cecd1601-f719-4b87-a4a4-f9aad190cf99" navigableOwnedEnd="_OETI_cecd1601-f719-4b87-a4a4-f9aad190cf99 _OESI_cecd1601-f719-4b87-a4a4-f9aad190cf99">
+ <ownedEnd xmi:id="_OETI_cecd1601-f719-4b87-a4a4-f9aad190cf99" name="transaction" type="b5db0ad8-7ce7-4826-84f7-aa33b6f48f25" association="cecd1601-f719-4b87-a4a4-f9aad190cf99">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_cecd1601-f719-4b87-a4a4-f9aad190cf99"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_cecd1601-f719-4b87-a4a4-f9aad190cf99" value="*"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_cecd1601-f719-4b87-a4a4-f9aad190cf99" name="order" type="1f436814-ce01-4723-828d-3ce279fd80ea" association="cecd1601-f719-4b87-a4a4-f9aad190cf99">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_cecd1601-f719-4b87-a4a4-f9aad190cf99" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_cecd1601-f719-4b87-a4a4-f9aad190cf99" value="1"/>
+</ownedEnd>
+</packagedElement>
+</uml:Model>

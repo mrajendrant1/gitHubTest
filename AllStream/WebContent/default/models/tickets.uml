@@ -1,0 +1,268 @@
+<uml:Model xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:version="2.0" xmi:id="_resource" name="resource">
+<packagedElement xsi:type="uml:Class" xmi:id="c361d280-b544-48f8-92d9-954568051373" name="ServiceRequest">
+<ownedAttribute xmi:id="_ticketId_ServiceRequest" name="ticketId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ticketId_ServiceRequest" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ticketId_ServiceRequest" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_NGPOIID_ServiceRequest" name="NGPOIID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_NGPOIID_ServiceRequest" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_NGPOIID_ServiceRequest" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_srCategory_ServiceRequest" name="srCategory">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_srCategory_ServiceRequest" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_srCategory_ServiceRequest" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_approvedBy_ServiceRequest" name="approvedBy">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_approvedBy_ServiceRequest" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_approvedBy_ServiceRequest" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_approvedDate_ServiceRequest" name="approvedDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_approvedDate_ServiceRequest" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_approvedDate_ServiceRequest" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_ServiceRequest" name="get">
+<ownedParameter xmi:id="_P_get_ServiceRequest" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ServiceRequest" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ServiceRequest" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="f367d3b7-1c27-4626-8e83-6a52cd4aae23" name="RelatedTicket">
+<ownedAttribute xmi:id="_ticketId_RelatedTicket" name="ticketId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ticketId_RelatedTicket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ticketId_RelatedTicket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_relatedTicketId_RelatedTicket" name="relatedTicketId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_relatedTicketId_RelatedTicket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_relatedTicketId_RelatedTicket" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_RelatedTicket" name="get">
+<ownedParameter xmi:id="_P_get_RelatedTicket" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_RelatedTicket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_RelatedTicket" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Enumeration" xmi:id="3373d093-664c-43f6-82fe-db7b7aa17aa5" name="Status">
+<ownedLiteral xmi:id="_E_ALLSTATUS_3373d093-664c-43f6-82fe-db7b7aa17aa5" name="ALLSTATUS" classifier="3373d093-664c-43f6-82fe-db7b7aa17aa5">
+</ownedLiteral>
+<ownedLiteral xmi:id="_E_OPEN_3373d093-664c-43f6-82fe-db7b7aa17aa5" name="OPEN" classifier="3373d093-664c-43f6-82fe-db7b7aa17aa5">
+</ownedLiteral>
+<ownedLiteral xmi:id="_E_INPROGRESS_3373d093-664c-43f6-82fe-db7b7aa17aa5" name="INPROGRESS" classifier="3373d093-664c-43f6-82fe-db7b7aa17aa5">
+</ownedLiteral>
+<ownedLiteral xmi:id="_E_CLOSED_3373d093-664c-43f6-82fe-db7b7aa17aa5" name="CLOSED" classifier="3373d093-664c-43f6-82fe-db7b7aa17aa5">
+</ownedLiteral>
+<ownedLiteral xmi:id="_E_CANCELLED_3373d093-664c-43f6-82fe-db7b7aa17aa5" name="CANCELLED" classifier="3373d093-664c-43f6-82fe-db7b7aa17aa5">
+</ownedLiteral>
+</packagedElement>
+<packagedElement xsi:type="uml:Enumeration" xmi:id="85500b0b-0b9e-4d9c-bfdc-a07526db05eb" name="Priority">
+<ownedLiteral xmi:id="_E_EMERGENCY_85500b0b-0b9e-4d9c-bfdc-a07526db05eb" name="EMERGENCY" classifier="85500b0b-0b9e-4d9c-bfdc-a07526db05eb">
+</ownedLiteral>
+<ownedLiteral xmi:id="_E_NORMAL_85500b0b-0b9e-4d9c-bfdc-a07526db05eb" name="NORMAL" classifier="85500b0b-0b9e-4d9c-bfdc-a07526db05eb">
+</ownedLiteral>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="1cc3ff67-7de2-43ae-83c5-54b3b6b1a600" name="SDASites">
+<ownedAttribute xmi:id="_sdaId_SDASites" name="sdaId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_sdaId_SDASites" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_sdaId_SDASites" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_siteId_SDASites" name="siteId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_siteId_SDASites" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_siteId_SDASites" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_sdArea_SDASites" name="sdArea">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_sdArea_SDASites"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_sdArea_SDASites" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_sdPoint_SDASites" name="sdPoint">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_sdPoint_SDASites"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_sdPoint_SDASites" value="*"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_SDASites" name="get">
+<ownedParameter xmi:id="_P_get_SDASites" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_SDASites" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_SDASites" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="694d4fbf-234d-4267-97d5-00ac1f55f3ed" name="Contact">
+<ownedAttribute xmi:id="_contactId_Contact" name="contactId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_contactId_Contact" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_contactId_Contact" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_contactName_Contact" name="contactName">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_contactName_Contact" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_contactName_Contact" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ContactPhone_Contact" name="ContactPhone">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ContactPhone_Contact" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ContactPhone_Contact" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_contactEmail_Contact" name="contactEmail">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_contactEmail_Contact" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_contactEmail_Contact" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ticketId_Contact" name="ticketId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ticketId_Contact" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ticketId_Contact" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_Contact" name="get">
+<ownedParameter xmi:id="_P_get_Contact" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_Contact" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_Contact" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="08cabd68-f508-4015-b7ca-af3a4384886d" name="ticket">
+<ownedAttribute xmi:id="_ticketId_ticket" name="ticketId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ticketId_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ticketId_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ticketNumber_ticket" name="ticketNumber">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ticketNumber_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ticketNumber_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_userTicketNumber_ticket" name="userTicketNumber">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_userTicketNumber_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_userTicketNumber_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ticketType_ticket" name="ticketType">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ticketType_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ticketType_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_status_ticket" name="status" type="3373d093-664c-43f6-82fe-db7b7aa17aa5">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_status_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_status_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_SIID_ticket" name="SIID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SIID_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SIID_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_description_ticket" name="description">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_description_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_description_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_priority_ticket" name="priority" type="85500b0b-0b9e-4d9c-bfdc-a07526db05eb">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_priority_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_priority_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_resolution_ticket" name="resolution">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_resolution_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_resolution_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_BPID_ticket" name="BPID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_BPID_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_BPID_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_createdBy_ticket" name="createdBy">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_createdBy_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_createdBy_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_createdDate_ticket" name="createdDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_createdDate_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_createdDate_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_updatedBy_ticket" name="updatedBy">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_updatedBy_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_updatedBy_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_updatedDate_ticket" name="updatedDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_updatedDate_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_updatedDate_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_portalUpdateState_ticket" name="portalUpdateState">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_portalUpdateState_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_portalUpdateState_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_closedDate_ticket" name="closedDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_closedDate_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_closedDate_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_location_ticket" name="location">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_location_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_location_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_impact_ticket" name="impact">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_impact_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_impact_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_reason_ticket" name="reason">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_reason_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_reason_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_related_ticket" name="related">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_related_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_related_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_contactId_ticket" name="contactId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_contactId_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_contactId_ticket" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_contact_ticket" name="contact" type="694d4fbf-234d-4267-97d5-00ac1f55f3ed">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_contact_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_contact_ticket" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_search_ticket" name="search">
+<ownedParameter xmi:id="_P_search_ticket" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_search_ticket" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_search_ticket" value="1"/>
+</ownedParameter>
+</ownedOperation>
+<ownedOperation xmi:id="_O_get_ticket" name="get">
+<ownedParameter xmi:id="_P_get_ticket" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ticket"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ticket" value="*"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="07593d92-129d-4886-b910-3823159e62c0" name="ticket_Contact" memberEnd="_OETI_07593d92-129d-4886-b910-3823159e62c0 _OESI_07593d92-129d-4886-b910-3823159e62c0" navigableOwnedEnd="_OETI_07593d92-129d-4886-b910-3823159e62c0 _OESI_07593d92-129d-4886-b910-3823159e62c0">
+ <ownedEnd xmi:id="_OETI_07593d92-129d-4886-b910-3823159e62c0" name="contact" type="694d4fbf-234d-4267-97d5-00ac1f55f3ed" association="07593d92-129d-4886-b910-3823159e62c0">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_07593d92-129d-4886-b910-3823159e62c0" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_07593d92-129d-4886-b910-3823159e62c0" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_07593d92-129d-4886-b910-3823159e62c0" name="ticket" type="08cabd68-f508-4015-b7ca-af3a4384886d" association="07593d92-129d-4886-b910-3823159e62c0">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_07593d92-129d-4886-b910-3823159e62c0" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_07593d92-129d-4886-b910-3823159e62c0" value="1"/>
+</ownedEnd>
+</packagedElement>
+</uml:Model>
