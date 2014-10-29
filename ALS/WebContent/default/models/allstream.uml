@@ -1,0 +1,222 @@
+<uml:Model xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:version="2.0" xmi:id="_resource" name="resource">
+<packagedElement xsi:type="uml:Class" xmi:id="ff86a6a4-ae37-494a-8e37-71e26b742369" name="Customer">
+<ownedAttribute xmi:id="_BPID_Customer" name="BPID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_BPID_Customer" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_BPID_Customer" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_CustomerName_Customer" name="CustomerName">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_CustomerName_Customer" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_CustomerName_Customer" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_Status_Customer" name="Status">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_Status_Customer" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_Status_Customer" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_Customer" name="get">
+<ownedParameter xmi:id="_P_get_Customer" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_Customer" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_Customer" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="11eb9a67-0943-4953-9f87-6beb0bfd4ffe" name="ServiceOrder">
+<ownedAttribute xmi:id="_SOID_ServiceOrder" name="SOID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SOID_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SOID_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_OrderNumber_ServiceOrder" name="OrderNumber">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_OrderNumber_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_OrderNumber_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_revision_ServiceOrder" name="revision">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_revision_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_revision_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_OrderType_ServiceOrder" name="OrderType">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_OrderType_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_OrderType_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_SIID_ServiceOrder" name="SIID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SIID_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SIID_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_Status_ServiceOrder" name="Status">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_Status_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_Status_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_CommitedDeliveryDate_ServiceOrder" name="CommitedDeliveryDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Date"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_CommitedDeliveryDate_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_CommitedDeliveryDate_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_Remarks_ServiceOrder" name="Remarks">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_Remarks_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_Remarks_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_OrderDate_ServiceOrder" name="OrderDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Date"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_OrderDate_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_OrderDate_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ServiceSpecificationID_ServiceOrder" name="ServiceSpecificationID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ServiceSpecificationID_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ServiceSpecificationID_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_LastUpdatedDate_ServiceOrder" name="LastUpdatedDate">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Date"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_LastUpdatedDate_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_LastUpdatedDate_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_LastUpdatedBy_ServiceOrder" name="LastUpdatedBy">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_LastUpdatedBy_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_LastUpdatedBy_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_CustomerID_ServiceOrder" name="CustomerID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_CustomerID_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_CustomerID_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_BPID_ServiceOrder" name="BPID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_BPID_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_BPID_ServiceOrder" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_ServiceOrder" name="get">
+<ownedParameter xmi:id="_P_get_ServiceOrder" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ServiceOrder" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ServiceOrder" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="35b8444e-facd-4463-853e-218118b0a4cc" name="CustomerFacingService">
+<ownedAttribute xmi:id="_ServiceName_CustomerFacingService" name="ServiceName">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ServiceName_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ServiceName_CustomerFacingService" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_Configuration_CustomerFacingService" name="Configuration">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_Configuration_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_Configuration_CustomerFacingService" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_ServiceSpecificationID_CustomerFacingService" name="ServiceSpecificationID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_ServiceSpecificationID_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_ServiceSpecificationID_CustomerFacingService" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_CustomerID_CustomerFacingService" name="CustomerID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_CustomerID_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_CustomerID_CustomerFacingService" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_BPID_CustomerFacingService" name="BPID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_BPID_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_BPID_CustomerFacingService" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_SIISD_CustomerFacingService" name="SIISD">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SIISD_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SIISD_CustomerFacingService" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_CustomerFacingService" name="get">
+<ownedParameter xmi:id="_P_get_CustomerFacingService" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_CustomerFacingService" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_CustomerFacingService" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="56077f01-e8f0-4775-96cb-4f8a47ab50dc" name="ServiceOrderXML">
+<ownedAttribute xmi:id="_XMLID_ServiceOrderXML" name="XMLID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_XMLID_ServiceOrderXML" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_XMLID_ServiceOrderXML" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_SOID_ServiceOrderXML" name="SOID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SOID_ServiceOrderXML" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SOID_ServiceOrderXML" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_revision_ServiceOrderXML" name="revision">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_revision_ServiceOrderXML" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_revision_ServiceOrderXML" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_XML_ServiceOrderXML" name="XML">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_XML_ServiceOrderXML" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_XML_ServiceOrderXML" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_ServiceOrderXML" name="get">
+<ownedParameter xmi:id="_P_get_ServiceOrderXML" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ServiceOrderXML" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ServiceOrderXML" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="24a21b30-63b4-4e1c-95aa-1aa97a2e1115" name="ServiceOrderItemAttribute">
+<ownedAttribute xmi:id="_SOIAID_ServiceOrderItemAttribute" name="SOIAID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SOIAID_ServiceOrderItemAttribute" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SOIAID_ServiceOrderItemAttribute" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_SOIID_ServiceOrderItemAttribute" name="SOIID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SOIID_ServiceOrderItemAttribute" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SOIID_ServiceOrderItemAttribute" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_attribute_ServiceOrderItemAttribute" name="attribute">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_attribute_ServiceOrderItemAttribute" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_attribute_ServiceOrderItemAttribute" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_value_ServiceOrderItemAttribute" name="value">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_value_ServiceOrderItemAttribute" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_value_ServiceOrderItemAttribute" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_ServiceOrderItemAttribute" name="get">
+<ownedParameter xmi:id="_P_get_ServiceOrderItemAttribute" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ServiceOrderItemAttribute" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ServiceOrderItemAttribute" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="8646af22-634c-486d-ad26-67c38a4e0822" name=" ServiceOrderItem">
+<ownedAttribute xmi:id="_SOIID_ ServiceOrderItem" name="SOIID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SOIID_ ServiceOrderItem" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SOIID_ ServiceOrderItem" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_SOIDx_ ServiceOrderItem" name="SOIDx">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_SOIDx_ ServiceOrderItem" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_SOIDx_ ServiceOrderItem" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_Status_ ServiceOrderItem" name="Status">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_Status_ ServiceOrderItem" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_Status_ ServiceOrderItem" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_UserAssignedItemID_ ServiceOrderItem" name="UserAssignedItemID">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_UserAssignedItemID_ ServiceOrderItem" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_UserAssignedItemID_ ServiceOrderItem" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_ ServiceOrderItem" name="get">
+<ownedParameter xmi:id="_P_get_ ServiceOrderItem" name="returnParameter" isUnique="false" direction="return">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ ServiceOrderItem" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ ServiceOrderItem" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+</uml:Model>
